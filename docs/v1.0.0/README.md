@@ -9,7 +9,7 @@ The InTouch SDK comes with a variety of events that enable better control and po
 
 | Version | Supported SDK Version |  
 | ---- | ---- |
-| [v1.0.0](docs/v1.0.0/README.md) | - Intouch SDK v1.0.5 |  
+| [v1.0.0](../v1.0.0/README.md) | - Intouch SDK v1.0.5 |  
 
 ## [Version History](#Version-History)
 
@@ -21,20 +21,20 @@ The InTouch SDK comes with a variety of events that enable better control and po
 | v1.0.2 | 01 March 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |  -Added Android 13 Support  |
 | v1.0.1 | 27 January 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |  - Bug Fixes  |
 
-For more details of previous versions , [click here](docs/v1.0.0/Version-History.md).
+For more details of previous versions , [click here](./Version-History.md).
 
 ## [Table Of Content](#Table-Of-Content)
-- [Mappls Intouch SDK](docs/v1.0.0/Getting-Started.md)
-  * [Getting Started](docs/v1.0.0/Getting-Started.md#getting-started)
-  * [Installation](docs/v1.0.0/Getting-Started.md#installation)
-  * [Added Import](docs/v1.0.0/Getting-Started.md#added-import)
-  * [To Check Intouch is Initialised](docs/v1.0.0/Getting-Started.md#to-check-intouch-is-initialised)
-  * [Intouch Initialisation](docs/v1.0.0/Getting-Started.md#intouch-initialisation)
-  * [Check Intouch Running](docs/v1.0.0/Getting-Started.md#check-intouch-running)
-  * [Start tracking](docs/v1.0.0/Getting-Started.md#start-tracking)
-  * [Stop tracking](docs/v1.0.0/Getting-Started.md#stop-tracking)
-  * [Tracking Event Listener](docs/v1.0.0/Getting-Started.md#tracking-event-listener)
-  * [Get Current Locaton](docs/v1.0.0/Getting-Started.md#get-current-locaton)
+- [Mappls Intouch SDK](./Getting-Started.md)
+  * [Getting Started](./Getting-Started.md#getting-started)
+  * [Installation](./Getting-Started.md#installation)
+  * [Added Import](./Getting-Started.md#added-import)
+  * [To Check Intouch is Initialised](./Getting-Started.md#to-check-intouch-is-initialised)
+  * [Intouch Initialisation](./Getting-Started.md#intouch-initialisation)
+  * [Check Intouch Running](./Getting-Started.md#check-intouch-running)
+  * [Start tracking](./Getting-Started.md#start-tracking)
+  * [Stop tracking](./Getting-Started.md#stop-tracking)
+  * [Tracking Event Listener](./Getting-Started.md#tracking-event-listener)
+  * [Get Current Locaton](./Getting-Started.md#get-current-locaton)
 
 <br><br><br>
 
