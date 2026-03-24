@@ -3,14 +3,14 @@ import React, {Component} from 'react';
 import {Button, Image, StyleSheet, Text, TextInput, View} from 'react-native';
 import MapplsIntouch from 'mappls-intouch-react-native';
 
-const clientId = '';
-const clientSecret = '';
 
 class InputScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {
       inputValue: '',
+      clientIdInputValue:'',
+      clientSecretInputValue:'',
       showProgressbar: false,
       error: '',
     };
@@ -25,10 +25,15 @@ class InputScreen extends Component {
 
       MapplsIntouch.initialize(
         this.state.inputValue,
-        clientId,
-        clientSecret,
+        this.state.clientIdInputValue,
+         this.state.clientSecretInputValue,
+      
       )
         .then((entityId) => {
+            this.setState({
+            showProgressbar: false,
+          });
+          console.log('Current device ID: ' + entityId)
           this.props.navigation.replace('track');
         })
         .catch((err) => {
@@ -75,6 +80,18 @@ class InputScreen extends Component {
           value={this.state.inputValue}
           placeholder="Device Name"
         />
+        <TextInput
+          style={styles.input}
+          onChangeText={(text) => this.setState({clientIdInputValue: text})}
+          value={this.state.clientIdInputValue}
+          placeholder="clientId"
+        />
+        <TextInput
+          style={styles.input}
+          onChangeText={(text) => this.setState({clientSecretInputValue: text})}
+          value={this.state.clientSecretInputValue}
+          placeholder="clientSecret"
+        />
         {error}
         {butttons}
       </View>
@@ -102,6 +119,7 @@ const styles = StyleSheet.create({
     marginTop: 40,
     padding: 10,
     fontSize: 20,
+    color:'#000000'
   },
   button: {
     marginTop: 30,
