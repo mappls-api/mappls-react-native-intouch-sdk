@@ -111,7 +111,7 @@ class TrackingScreen extends Component {
         dropDownEnabled: false  // ✅ disable picker
       });
       console.log("startTracking", this.state.currentSpeed);
-      MapplsIntouch.startTracking(this.state.currentSpeed)
+      MapplsIntouch.startTracking({priority: this.state.currentSpeed})
 
     }
   };

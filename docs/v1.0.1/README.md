@@ -7,35 +7,35 @@ The InTouch SDK comes with a variety of events that enable better control and po
 
 ## [Documentation History](#Documentation-History)
 
-| Version                         | Supported SDK Version |  
-|---------------------------------|-----------------------|
-| [v1.0.0](docs/v1.0.1/README.md) | - Intouch SDK v1.0.8  |  
-| [v1.0.0](docs/v1.0.0/README.md) | - Intouch SDK v1.0.7  |  
+| Version                       | Supported SDK Version |  
+|-------------------------------| ---- |
+| [v1.0.0](../v1.0.1/README.md) | - Intouch SDK v1.0.8  |
+| [v1.0.0](../v1.0.0/README.md) | - Intouch SDK v1.0.7 |  
 
 ## [Version History](#Version-History)
 
-| Version | Last Updated     | Author | Release Note                                                                                                        |  
-|---------|------------------| ---- |---------------------------------------------------------------------------------------------------------------------|
+| Version | Last Updated | Author |  Release Note|  
+| ---- | ---- | ---- | ---- |
 | v1.0.8  | 19 May 2026      | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Added isGNSSFullTrackingEnable & isWaitForAccurateLocation to get Accurate Location for Android <br/> - Bug Fixes |
-| v1.0.7  | 24 March 2026    | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes & Improvements                                                                                          |
-| v1.0.6  | 02 March 2026    | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Added Android 15 Support </br> - Update in IOS Library                                                            |
-| v1.0.5  | 03 December 2024 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Added Android 14 Support                                                                                          |
-| v1.0.4  | 25 August 2023   | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes & Improvements                                                                                          |
+| v1.0.7 | 24 March 2026 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |  - Bug Fixes & Improvements |
+| v1.0.6 | 02 March 2026 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |  - Added Android 15 Support </br> - Update in IOS Library |
+| v1.0.5 | 03 December 2024 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |  - Added Android 14 Support  |
+| v1.0.4 | 25 August 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) |  - Bug Fixes & Improvements  |
 
-For more details of previous versions , [click here](docs/v1.0.1/Version-History.md).
+For more details of previous versions , [click here](./Version-History.md).
 
 ## [Table Of Content](#Table-Of-Content)
-- [Mappls Intouch SDK](docs/v1.0.1/Getting-Started.md)
-  * [Getting Started](docs/v1.0.1/Getting-Started.md#getting-started)
-  * [Installation](docs/v1.0.1/Getting-Started.md#installation)
-  * [Added Import](docs/v1.0.1/Getting-Started.md#added-import)
-  * [To Check Intouch is Initialised](docs/v1.0.1/Getting-Started.md#to-check-intouch-is-initialised)
-  * [Intouch Initialisation](docs/v1.0.1/Getting-Started.md#intouch-initialisation)
-  * [Check Intouch Running](docs/v1.0.1/Getting-Started.md#check-intouch-running)
-  * [Start tracking](docs/v1.0.1/Getting-Started.md#start-tracking)
-  * [Stop tracking](docs/v1.0.1/Getting-Started.md#stop-tracking)
-  * [Tracking Event Listener](docs/v1.0.1/Getting-Started.md#tracking-event-listener)
-  * [Get Current Locaton](docs/v1.0.1/Getting-Started.md#get-current-locaton)
+- [Mappls Intouch SDK](./Getting-Started.md)
+  * [Getting Started](./Getting-Started.md#getting-started)
+  * [Installation](./Getting-Started.md#installation)
+  * [Added Import](./Getting-Started.md#added-import)
+  * [To Check Intouch is Initialised](./Getting-Started.md#to-check-intouch-is-initialised)
+  * [Intouch Initialisation](./Getting-Started.md#intouch-initialisation)
+  * [Check Intouch Running](./Getting-Started.md#check-intouch-running)
+  * [Start tracking](./Getting-Started.md#start-tracking)
+  * [Stop tracking](./Getting-Started.md#stop-tracking)
+  * [Tracking Event Listener](./Getting-Started.md#tracking-event-listener)
+  * [Get Current Locaton](./Getting-Started.md#get-current-locaton)
 
 <br><br><br>
 
