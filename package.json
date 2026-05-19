@@ -16,7 +16,7 @@
     "@react-native-picker/picker": "2.6.1",
     "@react-navigation/native": "6.1.18",
     "@react-navigation/stack": "6.3.29",
-    "mappls-intouch-react-native": "1.0.7",
+    "mappls-intouch-react-native": "1.0.8",
     "react": "18.3.1",
     "react-native": "0.76.9",
     "react-native-gesture-handler": "2.21.2",
